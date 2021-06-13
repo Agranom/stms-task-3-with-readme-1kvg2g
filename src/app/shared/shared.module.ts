@@ -31,7 +31,7 @@ import {
     faCheck,
     faEdit,
     faExclamationTriangle,
-    faFilter,
+    faFilter, faHeart,
     faLanguage,
     faLightbulb,
     faPaintBrush,
@@ -138,6 +138,7 @@ export class SharedModule {
             faStream,
             faBook,
             faBookmark,
+            faHeart,
         );
     }
 }
