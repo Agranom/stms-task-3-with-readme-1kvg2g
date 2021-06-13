@@ -1,0 +1,7 @@
+<div class="follow-list">
+    <h1 class="main-heading">{{ 'smts.followList.title' | translate }}</h1>
+    <mat-form-field>
+        <input matInput placeholder="Type to filter" (input)="filterItems(inputElement.value)" #inputElement>
+    </mat-form-field>
+    <st-item-list [items]="filteredItems" [isRemovable]="true" (removeClicked)="removeItem($event)"></st-item-list>
+</div>
