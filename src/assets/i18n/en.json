@@ -8,6 +8,7 @@
   "stms.menu.login": "Sign in",
   "stms.menu.logout": "Logout",
   "stms.menu.settings": "Settings",
+  "stms.menu.followList": "Follow List",
 
   "stms.settings.animations.elements": "Navigation page elements slide up",
   "stms.settings.animations.page": "Navigation whole page transition",
@@ -30,5 +31,6 @@
   "stms.patients.get-patients": "Get patients",
 
   "stms.orders.title": "Orders",
-  "stms.orders.get-orders": "Get orders"
+  "stms.orders.get-orders": "Get orders",
+  "smts.followList.title": "Follow list"
 }

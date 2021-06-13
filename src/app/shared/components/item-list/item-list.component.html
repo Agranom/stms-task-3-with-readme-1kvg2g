@@ -1,0 +1,15 @@
+<div class="item-list">
+    <mat-card *ngFor="let item of items" class="item-card">
+        <div class="item-card__heading">
+            <mat-card-title>{{item.title}}</mat-card-title>
+            <button mat-icon-button (click)="removeItem(item)" *ngIf="isRemovable;else followListTmpl">
+                <fa-icon matTooltip="remove item from the list" icon="trash"></fa-icon>
+            </button>
+            <ng-template #followListTmpl>
+                <button mat-icon-button (click)="addToFollowList(item)">
+                    <fa-icon matTooltip="add to follow list" icon="bookmark"></fa-icon>
+                </button>
+            </ng-template>
+        </div>
+    </mat-card>
+</div>
